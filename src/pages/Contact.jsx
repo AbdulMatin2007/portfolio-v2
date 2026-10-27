@@ -72,6 +72,7 @@ export default function Contact() {
           <div><small className="cap">{c.location}</small><p>{t.loc}</p></div>
           <hr />
           <div><small className="cap">{c.phone}</small><p dir="ltr" style={{ textAlign: 'start' }}>{info.phone}</p></div>
+          <div><small className="cap">Email</small><p dir="ltr" style={{ textAlign: 'start' }}>matintavakoli786@gmail.com</p></div>
           <hr />
           <div><small className="cap">{t.name}</small><Socials /></div>
         </aside>
